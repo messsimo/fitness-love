@@ -14,5 +14,9 @@
 
     <!-- Подключение секций -->
     @yield("main")
+
+    <!-- Подключение JS -->
+    <script src="{{ asset('js/burger.js') }}"></script>
+    <script src="{{ asset('js/popup.js') }}"></script>
 </body>
 </html>

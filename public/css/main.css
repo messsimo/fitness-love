@@ -1,0 +1,167 @@
+/* Подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Базовы стили */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+img, svg {
+    max-width: 100%;
+}
+
+button, a {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+input, label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+/* Стили для всплывающего окна */
+.overlay-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    transition: visibility 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.overlay-popup.active {
+    visibility: visible;
+}
+
+.popup {
+    background-image: linear-gradient(to right, rgb(77, 77, 77), rgb(77, 77, 77));
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
+    z-index: 1001; 
+    padding: 50px 50px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.popup.active {
+    opacity: 0.85;
+    visibility: visible;
+}
+
+.popup .popup-container {
+    display: flex;
+}
+
+.popup .popup-container .popup-text {
+    width: 50%;
+    padding-right: 25px;
+}
+
+.popup .popup-container .popup-text h2 {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.popup .popup-container .popup-text p {
+    color: rgb(255, 247, 153);
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.popup .popup-container .popup-text span {
+    font-size: 10px;
+    color: white;
+    border-left: 2px solid rgb(112, 18, 211);
+    padding-left: 10px;
+}
+
+.popup .cross {
+    margin-top: -35px;
+    margin-right: -35px;
+}
+
+.popup .cross svg {
+    width: 20px;
+    height: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.popup .cross svg:hover {
+    transform: scale(1.1);
+}
+
+.popup form {
+    width: 49%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.popup form input {
+    background-color: #ddd;
+    border: none;
+    width: 95%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    outline: none;
+    color: black;
+    border-radius: 3px;
+}
+
+.popup form button {
+    background-color: rgb(112, 18, 211);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    color: white;
+}
+
+.popup form .alert {
+    /* background-color: #d4edda; */
+    width: 91.5%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.popup form .success {
+    background-color: #d4edda;
+}
+
+.popup form .success span {
+    font-size: 12px;
+}
+
+.popup form .error {
+    background-color: #f8d7da;
+}
+
+.popup form .error ul {
+    list-style: none;
+}
+
+.popup form .error ul li {
+    font-size: 12px;
+}
