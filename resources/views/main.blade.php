@@ -15,21 +15,29 @@
         <span>ФИТНЕС КЛУБ ДЛЯ ВСЕЙ СЕМЬИ</span><br>
     </div>
 
-    <form action="" method="PST">
+    <form action="{{ route('subscriptionForm') }}" method="POST">
         @csrf
 
         <input type="text" name="name" placeholder="Имя"><br>
         <input type="text" name="phone" placeholder="Телефон"><br>
 
-        <div class="alert success">
-            <span></span>
-        </div>
+        <!-- Блок с выводом успешной сессии -->
+        @if (session("success"))
+            <div class="alert success">
+                <span>{{ session('success') }}</span>
+            </div>
+        @endif
 
-        <div class="alert error">
-            <ul>
-                <li></li>
-            </ul>
-        </div>  
+        <!-- Блок с выводом ошибок -->
+        @if ($errors->any())
+            <div class="alert error">
+                <ul>
+                    @foreach ($errors->all() as $el)
+                        <li>{{ $el }}</li>
+                    @endforeach
+                </ul>
+            </div>  
+        @endif
 
         <button type="submit">ПОЛУЧИТЬ</button>
     </form>
