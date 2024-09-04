@@ -1,7 +1,4 @@
 /* Стили для шапки сайта */
-header {
-}
-
 header .header-container {
     display: flex;
     justify-content: space-between;
@@ -12,6 +9,7 @@ header .header-container h1 {
     font-size: 26px;
     font-weight: 300;
     margin-top: 10px;
+    color: white;
 }
 
 
@@ -110,7 +108,7 @@ header .header-container .burger-menu svg:hover {
     background-color: rgb(112, 18, 211);
     padding-left: 50px;
     padding-right: 50px;
-    box-shadow: 0 7px 7px grey;
+    box-shadow: -10px 0px 15px rgba(0, 0, 0, 0.5);
     text-align: center;
     background-color: transparent;
 }

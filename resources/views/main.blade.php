@@ -51,4 +51,24 @@
     </div>
     </div>
 </div>
+
+<!-- Hero блок -->
+<div class="hero">
+    <div class="hero-container">
+        <h2>СОВЕРШЕННО НОВЫЙ</h2>
+        <div class="main-text--hero">
+            <span>УНИКАЛЬНЫЙ</span>
+            <span>ФИТНЕС-КЛУБ <b>24/7</b></span>
+            <span>С БОЛЬШИМ БАССЕЙНОМ И SPA</span>
+        </div>
+
+        <h3>I LOVE FITNESS</h3>
+
+        <div class="sub-text--hero">
+            <span>ПОТРЯСАЮЩАЯ АКВА-ЗОНА</span>
+            <span>ПРЕМИАЛЬНЫЙ УРОВЕНЬ СЕРВИСА</span>
+            <span>ФИТНЕС КЛУБ ДЛЯ ВСЕЙ СЕМЬИ</span>
+        </div>
+    </div>
+</div>
 @endsection
