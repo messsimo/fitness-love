@@ -39,10 +39,6 @@ header .header-container .booking {
     /* margin-top: -10px; */
 }
 
-header .header-container .booking a {
-    text-decoration: none;
-}
-
 header .header-container .booking:hover {
     background-color: rgb(112, 18, 211);
 }
