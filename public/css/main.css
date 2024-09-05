@@ -525,3 +525,45 @@ input, label {
     height: 550px;
     z-index: 10; 
 }
+
+/* Стили для блока с фотографиями */
+.photo {
+    background-image: linear-gradient(to bottom, rgb(25, 25, 25) 0%, rgb(43, 43, 43) 100%);
+    padding: 50px 170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Автоматически регулирует количество колонок */
+    gap:15px;
+}
+
+.photo  .block-min {
+    grid-column: span 1;
+}
+
+.photo  .block-max {
+    grid-column: span 2;
+}
+
+.photo .block {
+    /* margin-right: 25px;
+    margin-bottom: 25px; */
+}
+
+.photo .block img {
+    height: 400px;
+    border-radius: 5px;
+}
+
+.photo .block .block-text {
+    padding-top: 5px;
+}
+
+.photo .block .block-text span {
+    color: white;
+}
+
+.photo .block .block-text .svgicon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    fill: rgb(112, 18, 211);
+}

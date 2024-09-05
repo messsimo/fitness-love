@@ -408,4 +408,92 @@
         <img src="{{ asset('images/girl.png') }}">
     </div>
 </div>
+
+<!-- Блок с фотографиями -->
+<div class="photo">
+    <div class="block block-min">
+        <img src="{{ asset('images/pic1.png') }}" alt="Photo 1">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>Аква-зона 1500 м2</span>
+        </div>
+    </div>
+    <div class="block block-max">
+        <img src="{{ asset('images/pic2.png') }}" alt="Photo 2">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>Большой бассейн 25 метров</span>
+        </div>
+    </div>
+    <div class="block block-max">
+        <img src="{{ asset('images/pic3.png') }}" alt="Photo 3">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>Просторные залы</span>
+        </div>
+    </div>
+    <div class="block block-min">
+        <img src="{{ asset('images/pic4.png') }}" alt="Photo 4">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>2-х уровневый тренажерный зал</span>
+        </div>
+    </div>
+    <div class="block block-min">
+        <img src="{{ asset('images/pic5.png') }}" alt="Photo 5">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>Новый зал бокса и единоборств</span>
+        </div>
+    </div>
+    <div class="block block-max">
+        <img src="{{ asset('images/pic6.png') }}" alt="Photo 6">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>Зона кроссфита и функционального тренинга</span>
+        </div>
+    </div>
+    <div class="block block-max">
+        <img src="{{ asset('images/pic7.png') }}" alt="Photo 7">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>Большой зал групповых программ</span>
+        </div>
+    </div>
+    <div class="block block-min">
+        <img src="{{ asset('images/pic8.png') }}" alt="Photo 8">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>Новейшее оборудование</span>
+        </div>
+    </div>
+    <div class="block block-min">        
+        <img src="{{ asset('images/pic9.png') }}" alt="Photo 9">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>2 зала танцевальной студии</span>
+        </div>
+    </div>
+    <div class="block block-max">
+        <img src="{{ asset('images/pic10.png') }}" alt="Photo 10">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>Студия йоги и антигравити</span>
+        </div>
+    </div>
+    <div class="block block-max">
+        <img src="{{ asset('images/pic11.png') }}" alt="Photo 11">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>Спортивная гимнастика и акробатика для детей</span>
+        </div>
+    </div>
+    <div class="block block-min">
+        <img src="{{ asset('images/pic12.png') }}" alt="Photo 12">
+        <div class="block-text">
+            <svg class="svgicon css80 css81" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" style="border-radius: 0%;"><rect x="0" y="0" width="128" height="128" style="fill: none" rx="0" ry="0"></rect><g transform="scale(0.8) translate(15.999999999999996, 15.999999999999996)" transform-origin="0 0"><path class="st0" d="M111.119,37.427L99.611,25.92c-1.172-1.171-3.07-1.171-4.242,0L48.694,72.596L32.732,56.635 c-1.125-1.125-3.117-1.125-4.242,0L16.88,68.247c-1.172,1.172-1.172,3.071,0,4.242l29.589,29.59 c0.562,0.562,1.325,0.879,2.121,0.879s1.559-0.316,2.121-0.879l60.408-60.409c0.562-0.562,0.879-1.326,0.879-2.121 C111.998,38.753,111.682,37.99,111.119,37.427z"></path></g></svg>
+            <span>Батуты</span>
+        </div>
+    </div>
+</div>
 @endsection
