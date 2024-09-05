@@ -543,10 +543,10 @@ input, label {
     grid-column: span 2;
 }
 
-.photo .block {
-    /* margin-right: 25px;
-    margin-bottom: 25px; */
-}
+/* .photo .block {
+    margin-right: 25px;
+    margin-bottom: 25px;
+} */
 
 .photo .block img {
     height: 400px;

@@ -1,0 +1,52 @@
+/* Стили для футера */
+footer {
+    display: flex;
+}
+
+footer img {
+    width: 40%;
+    height: 500px;
+}
+
+footer .footer-text {
+    background-color: rgb(74, 74, 74);
+    width: 55%;
+    padding-left: 50px;
+    padding-top: 135px;
+}
+
+footer .footer-text h2 {
+    color: white;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+footer .footer-text .spans-footer {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    width: 350px;
+}
+
+footer .footer-text .spans-footer .span-top--footer {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+footer .footer-text .footer-text-container {
+    padding-top: 15px;
+}
+
+footer .footer-text .footer-text-container svg {
+    width: 32px;
+    height: 32px;
+    fill: rgb(146, 50, 242);
+    vertical-align: middle;
+}
+
+footer .footer-text .footer-text-container span {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    vertical-align: middle;
+}
