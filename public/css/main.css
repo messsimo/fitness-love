@@ -136,7 +136,7 @@ input, label {
     color: white;
 }
 
-.popup form .alert {
+.alert {
     /* background-color: #d4edda; */
     width: 91.5%;
     margin-bottom: 15px;
@@ -144,23 +144,23 @@ input, label {
     border-radius: 3px;
 }
 
-.popup form .success {
+.success {
     background-color: #d4edda;
 }
 
-.popup form .success span {
+.success span {
     font-size: 12px;
 }
 
-.popup form .error {
+.error {
     background-color: #f8d7da;
 }
 
-.popup form .error ul {
+.error ul {
     list-style: none;
 }
 
-.popup form .error ul li {
+.error ul li {
     font-size: 12px;
 }
 
@@ -409,7 +409,7 @@ input, label {
 
 /* Стили для промежуточного блока */
 .intermediate {
-    background-color: rgb(112, 18, 211);
+    background-color: rgb(77, 18, 140);
     padding: 50px 100px;
     display: flex;
 }
@@ -441,4 +441,87 @@ input, label {
     height: 350px;
     width: 550px;
     border-radius: 5px;
+}
+
+/* Стили для блока с оформлением абонемента */
+.subscription {
+    background-color: rgb(43, 43, 43);
+    padding: 50px 100px;
+}
+
+.subscription .h2-top {
+    color: white;
+    padding-bottom: 0;
+}
+
+.subscription h2 {
+    font-weight: 400;
+    font-size: 44px;
+    color: rgb(255, 247, 153);
+    padding-bottom: 25px;
+}
+
+.subscription .subscription-container {
+    background-image: linear-gradient(to bottom, rgb(226, 226, 226) 0%, rgb(255, 255, 255) 100%);
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 50px;
+
+    position: relative;
+    width: 90%; 
+    height: 260px;
+}
+
+.subscription .subscription-container form input {
+    background-color: #ddd;
+    border: none;
+    width: 500px;
+    height: 60px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    outline: none;
+    color: black;
+    border-radius: 3px;
+}
+
+.subscription .subscription-container form button {
+    background-color: rgb(112, 18, 211);
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 0;
+    color: white;
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.subscription .subscription-container form button:hover {
+    background-color: rgb(102, 22, 188);
+}
+
+
+.subscription .subscription-container form .alert {
+    width: 96%;
+}
+
+.subscription .subscription-container form span {
+    font-size: 12px;
+    color: grey;
+}
+
+.subscription .subscription-container form span a {
+    text-decoration: underline;
+}
+
+.subscription .subscription-container img {
+    position: absolute; 
+    bottom: -50px; 
+    right: 120px; 
+    width: 400px; 
+    height: 550px;
+    z-index: 10; 
 }

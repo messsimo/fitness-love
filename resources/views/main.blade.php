@@ -370,4 +370,42 @@
 
     <img src="{{ asset('images/int.png') }}" alt="FitnessLove">
 </div>
+
+<!-- Блок оформления абонементов -->
+<div class="subscription">
+    <h2 class="h2-top">ПОЛУЧИТЕ АБОНЕМЕНТ</h2>
+    <h2>ФИТНЕС за 990 руб.</h2>
+
+    <div class="subscription-container">
+      <form action="{{ route('subscriptionForm') }}" method="POST">
+            @csrf
+
+            <input type="text" name="name" placeholder="Имя*"><br>
+            <input type="text" name="phone" placeholder="Номер телефона*"><br>
+
+            <!-- Блок с выводом успешной сессии -->
+            @if (session("success"))
+                <div class="alert success">
+                    <span>{{ session('success') }}</span>
+                </div>
+            @endif
+
+            <!-- Блок с выводом ошибок -->
+            @if ($errors->any())
+                <div class="alert error">
+                    <ul>
+                        @foreach ($errors->all() as $el)
+                            <li>{{ $el }}</li>
+                        @endforeach
+                    </ul>
+                </div>  
+            @endif
+
+            <button type="submit">ПОЛУЧИТЬ</button> 
+            <span>Вы даете согласие на <a>обработку персональных данных</a></span>   
+        </form>
+
+        <img src="{{ asset('images/girl.png') }}">
+    </div>
+</div>
 @endsection
