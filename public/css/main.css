@@ -294,3 +294,115 @@ input, label {
     margin-left: 15px;
     margin-top: 2.5px;
 }
+
+/* Стили для секции с направлениями */
+.directions {
+    background-image: linear-gradient(to right, rgb(77, 77, 77), rgb(77, 77, 77));
+    padding: 50px 100px;
+}
+
+.directions .directions-text .top-spans {
+    color: white;
+    font-size: 28px;
+}
+
+.directions .directions-text .directions-text--sub {
+    display: flex;
+}
+
+.directions .directions-text .directions-text--sub p {
+    color: rgb(54, 54, 54);
+    font-size: 175px;
+    font-weight: bold;
+}
+
+.directions .directions-text .directions-text--sub .directions-text--sub2 {
+    width: 600px;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+
+.directions .directions-text .directions-text--sub .directions-text--sub2 span {
+    color: white;
+    font-size: 36px;
+    text-align: left;
+}
+
+.directions .directions-text .directions-text--sub .directions-text--sub2 .span-gold {
+    color: rgb(255, 247, 153);
+}
+
+.directions .directions-container {
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+
+.directions .directions-container .block {
+    width: 250px;
+    /* height: 550px; */
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.directions .directions-container .block img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.directions .directions-container .block .block-text {
+    padding: 25px;
+    height: 170px;
+}
+
+.directions .directions-container .block .block-text h3 {
+    font-weight: 400;
+    border-bottom: 2px solid rgb(112, 18, 211);
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.directions .directions-container .block .block-text p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+}
+
+.directions .directions-container .block .block-text span {
+    text-align: left;
+    color: #333;
+    font-size: 12px;
+}
+
+.directions .directions-container .block  .give_cart {
+    display: flex;
+    margin-top: 25px;
+    background-color: rgb(127, 21, 240);
+    border-radius: 10px;
+    padding: 10px 0;
+    transition: 0.2s ease-in-out;
+    margin: 25px 25px;
+}
+
+.directions .directions-container .block  .give_cart:hover {
+    background-color: rgb(112, 18, 211);
+}
+
+.directions .directions-container .block  .give_cart svg {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
+
+.directions .directions-container .block  .give_cart span {
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 5px;
+}
