@@ -406,3 +406,39 @@ input, label {
     margin-left: 10px;
     margin-top: 5px;
 }
+
+/* Стили для промежуточного блока */
+.intermediate {
+    background-color: rgb(112, 18, 211);
+    padding: 50px 100px;
+    display: flex;
+}
+
+.intermediate .intermediate-text {
+    width: 500px;
+    padding-top: 55px;
+}
+
+.intermediate .intermediate-text h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.intermediate .intermediate-text .intermediate-text-sub {
+    width: 350px;
+    padding-top: 25px;
+}
+
+.intermediate .intermediate-text .intermediate-text-sub span {
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.intermediate img {
+    margin-left: 150px;
+    height: 350px;
+    width: 550px;
+    border-radius: 5px;
+}

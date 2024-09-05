@@ -356,4 +356,18 @@
         </div>
     </div>
 </div>
+
+<!-- Промежуточный блок -->
+<div class="intermediate">
+    <div class="intermediate-text">
+        <h2>I LOVE FITNESS</h2>
+        <h2>Лучший фитнес-проект России</h2>
+
+        <div class="intermediate-text-sub">
+            <span>ОСОБАЯ АТМОСФЕРА, КОМФОРТ, КОМАНДА ПРОФЕССИОНАЛОВ И ОБОРУДОВАНИЕ МИРОВОГО УРОВНЯ</span>
+        </div>
+    </div>
+
+    <img src="{{ asset('images/int.png') }}" alt="FitnessLove">
+</div>
 @endsection
