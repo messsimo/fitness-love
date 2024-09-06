@@ -110,15 +110,77 @@
     }
 
     .promo .promo-container {
-        padding-top: 25px;
         display: grid;
         place-items: center;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
 
 @media (max-width: 472px) {
     .promo h2 {
         font-size: 18px;
+    }
+}
+
+/* Адаптация для блока с направлениями */
+@media (max-width: 1090px) {
+    .directions .directions-text .directions-text--sub p {
+        color: rgb(54, 54, 54);
+        font-size: 145px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 980px) {
+    .directions {
+        padding: 50px 50px;
+    }
+
+    .directions .directions-text .top-spans {
+        font-size: 26px;
+    }
+
+    .directions .directions-text .directions-text--sub p {
+        color: rgb(54, 54, 54);
+        font-size: 105px;
+        font-weight: bold;
+    }
+
+    .directions .directions-text .directions-text--sub .directions-text--sub2 {
+        margin-top: 0px;
+        width: 300px;
+    }
+
+    .directions .directions-text .directions-text--sub .directions-text--sub2 span {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 740px) {
+    .directions .directions-text .directions-text--sub p {
+        font-size: 75px;
+    }
+
+    .directions .directions-text .top-spans {
+        color: white;
+        font-size: 20px;
+    }
+
+    .directions .directions-text .directions-text--sub .directions-text--sub2 span {
+        font-size: 20px;
+    }
+
+    .directions .directions-text .directions-text--sub .directions-text--sub2 {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .directions .directions-container {
+        display: grid;
+        place-items: center;
+    }
+
+    .directions .directions-text .directions-text--sub .directions-text--sub2 {
+        display: none;
     }
 }
