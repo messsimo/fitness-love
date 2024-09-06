@@ -77,3 +77,48 @@
         font-size: 14px;
     }
 }
+
+/* Адаптация блока с предложениями */
+@media (max-width: 949px) {
+    .promo {
+        padding: 50px 50px 50px 70px;
+    }
+}
+
+@media (max-width: 869px) {
+    .promo {
+        padding: 50px 50px 50px 110px;
+    }
+}
+
+@media (max-width: 752px) {
+    .promo h2 {
+        font-weight: 300;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 659px) {
+    .promo h2 {
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .promo {
+        padding: 50px;
+    }
+
+    .promo .promo-container {
+        padding-top: 25px;
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 472px) {
+    .promo h2 {
+        font-size: 18px;
+    }
+}

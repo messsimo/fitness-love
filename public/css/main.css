@@ -252,6 +252,7 @@ input, label {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 250px;
     border-radius: 5px;
+    margin-bottom: 25px;
 }
 
 .promo .promo-container .block img {
