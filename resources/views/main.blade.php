@@ -150,7 +150,7 @@
 </div>
 
 <!-- Блок с  направлениями -->
-<div class="directions">
+<div class="directions" id="directions">
     <div class="directions-text">
         <span class="top-spans">ЛУЧШИЕ ФИТНЕС-НАПРАВЛЕНИЯ</span><br>
         <span class="top-spans">И ПРОФЕССИОНАЛЬНЫЕ ШКОЛЫ</span>
@@ -358,7 +358,7 @@
 </div>
 
 <!-- Промежуточный блок -->
-<div class="intermediate">
+<div class="intermediate" id="about">
     <div class="intermediate-text">
         <h2>I LOVE FITNESS</h2>
         <h2>Лучший фитнес-проект России</h2>
@@ -410,7 +410,7 @@
 </div>
 
 <!-- Блок с фотографиями -->
-<div class="photo">
+<div class="photo" id="photo">
     <div class="block block-min">
         <img src="{{ asset('images/pic1.png') }}" alt="Photo 1">
         <div class="block-text">

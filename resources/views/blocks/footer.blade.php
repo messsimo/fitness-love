@@ -1,6 +1,6 @@
 <!-- Секция футера сайта -->
 @section("footer")
-<footer>
+<footer id="contact">
     <img src="{{ asset('images/map.png') }}" alt="Локация фитнесс центра">
     
     <div class="footer-text">

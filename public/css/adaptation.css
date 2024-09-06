@@ -1,0 +1,24 @@
+/* Адаптация для шапки сайта */
+@media (max-width: 980px) {
+    header .header-container {
+        padding: 30px 50px;
+    }
+
+    header .header-container .booking {
+        padding: 10px 15px;
+    }
+
+    header .header-container .booking span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 780px) {
+    header .header-container .number {
+        display: none;
+    }
+
+    header .header-container .booking {
+        display: none;
+    }
+}

@@ -51,10 +51,10 @@
         </svg>
     </div>
 
-    <a href="#">О клубе</a>
-    <a href="#">Направления</a>
-    <a href="#">Фото</a>
-    <a href="#">Контакты</a>
+    <a href="#about">О клубе</a>
+    <a href="#directions">Направления</a>
+    <a href="#photo">Фото</a>
+    <a href="#contact">Контакты</a>
 
     <div class="burger-dropdown--phone">
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="591pt" height="591pt" viewBox="0 0 591 591" preserveAspectRatio="xMidYMid meet">
