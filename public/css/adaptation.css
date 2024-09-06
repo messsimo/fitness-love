@@ -22,3 +22,58 @@
         display: none;
     }
 }
+
+/* Адаптация для hero меню */
+@media (max-width: 1280px) {
+    .hero .hero-container h3 {
+        font-size: 110px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .hero .hero-container h3 {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 980px) {
+    .hero .hero-container {
+        padding: 200px 50px 200px 50px;
+    }
+
+    .hero .hero-container .main-text--hero span {
+        font-size: 32px;
+    }
+
+    .hero .hero-container h3 {
+        font-size: 80px;
+    }
+
+    .hero .hero-container .sub-text--hero span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 750px) {
+    .hero .hero-container .main-text--hero span {
+        font-size: 28px;
+    }
+
+    .hero .hero-container .sub-text--hero span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero .hero-container .main-text--hero span {
+        font-size: 24px;
+    }
+
+    .hero .hero-container h3 {
+        font-size: 60px;
+    }
+
+    .hero .hero-container .sub-text--hero span {
+        font-size: 14px;
+    }
+}
