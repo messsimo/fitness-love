@@ -184,3 +184,58 @@
         display: none;
     }
 }
+
+/* Адаптация для промежуточного блока */
+@media (max-width: 1180px) {
+    .intermediate img {
+        margin-left: 80px;
+        width: auto;
+    }
+
+    .intermediate {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 980px) {
+    .intermediate {
+        display: grid;
+        place-items: center;
+    }
+
+    .intermediate .intermediate-text {
+        width: auto;
+        padding-bottom: 50px;
+    }
+
+    .intermediate img {
+        margin-left: 0px;
+        height: 350px;
+        width: 650px;
+    }
+}
+
+@media (max-width: 450px) {
+    .intermediate .intermediate-text h2 {
+        font-size: 36px;
+    }
+
+    .intermediate .intermediate-text .intermediate-text-sub span {
+        font-size: 16px;
+    }
+
+    .intermediate .intermediate-text .intermediate-text-sub {
+        padding-top: 15px;
+    }
+
+    .intermediate img {
+        height: none;
+        width: none;
+        border-radius: 5px;
+        margin-left: -10px;
+    }
+    
+    .intermediate {
+        padding: 50px 15px;
+    }
+}
