@@ -7,6 +7,7 @@ I LOVE FITNESS is a sport complex based in Moscow,Russia. In the web we can see 
 
 - Adaptation: Full adaptation from the 1920px to the 360px.
 - Home page: Information about fitnes club and details + form for booking subscription.
+- API: API for showing location from OpenStreetMap.
 
 
 ## Installation
@@ -46,6 +47,7 @@ I LOVE FITNESS is a sport complex based in Moscow,Russia. In the web we can see 
 - Laravel
 - mySQL
 - Git
+- OpenStreetMap API
 
 
 ## Screenshots
