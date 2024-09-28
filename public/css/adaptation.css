@@ -1,0 +1,341 @@
+/* Адаптация для шапки сайта */
+@media (max-width: 980px) {
+    header .header-container {
+        padding: 30px 50px;
+    }
+
+    header .header-container .booking {
+        padding: 10px 15px;
+    }
+
+    header .header-container .booking span {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 780px) {
+    header .header-container .number {
+        display: none;
+    }
+
+    header .header-container .booking {
+        display: none;
+    }
+}
+
+/* Адаптация для hero меню */
+@media (max-width: 1280px) {
+    .hero .hero-container h3 {
+        font-size: 110px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .hero .hero-container h3 {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 980px) {
+    .hero .hero-container {
+        padding: 200px 50px 200px 50px;
+    }
+
+    .hero .hero-container .main-text--hero span {
+        font-size: 32px;
+    }
+
+    .hero .hero-container h3 {
+        font-size: 80px;
+    }
+
+    .hero .hero-container .sub-text--hero span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 750px) {
+    .hero .hero-container .main-text--hero span {
+        font-size: 28px;
+    }
+
+    .hero .hero-container .sub-text--hero span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero .hero-container .main-text--hero span {
+        font-size: 24px;
+    }
+
+    .hero .hero-container h3 {
+        font-size: 60px;
+    }
+
+    .hero .hero-container .sub-text--hero span {
+        font-size: 14px;
+    }
+}
+
+/* Адаптация блока с предложениями */
+@media (max-width: 949px) {
+    .promo {
+        padding: 50px 50px 50px 70px;
+    }
+}
+
+@media (max-width: 869px) {
+    .promo {
+        padding: 50px 50px 50px 110px;
+    }
+}
+
+@media (max-width: 752px) {
+    .promo h2 {
+        font-weight: 300;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 659px) {
+    .promo h2 {
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .promo {
+        padding: 50px;
+    }
+
+    .promo .promo-container {
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media (max-width: 472px) {
+    .promo h2 {
+        font-size: 18px;
+    }
+}
+
+/* Адаптация для блока с направлениями */
+@media (max-width: 1090px) {
+    .directions .directions-text .directions-text--sub p {
+        color: rgb(54, 54, 54);
+        font-size: 145px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 980px) {
+    .directions {
+        padding: 50px 50px;
+    }
+
+    .directions .directions-text .top-spans {
+        font-size: 26px;
+    }
+
+    .directions .directions-text .directions-text--sub p {
+        color: rgb(54, 54, 54);
+        font-size: 105px;
+        font-weight: bold;
+    }
+
+    .directions .directions-text .directions-text--sub .directions-text--sub2 {
+        margin-top: 0px;
+        width: 300px;
+    }
+
+    .directions .directions-text .directions-text--sub .directions-text--sub2 span {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 740px) {
+    .directions .directions-text .directions-text--sub p {
+        font-size: 75px;
+    }
+
+    .directions .directions-text .top-spans {
+        color: white;
+        font-size: 20px;
+    }
+
+    .directions .directions-text .directions-text--sub .directions-text--sub2 span {
+        font-size: 20px;
+    }
+
+    .directions .directions-text .directions-text--sub .directions-text--sub2 {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .directions .directions-container {
+        display: grid;
+        place-items: center;
+    }
+
+    .directions .directions-text .directions-text--sub .directions-text--sub2 {
+        display: none;
+    }
+}
+
+/* Адаптация для промежуточного блока */
+@media (max-width: 1180px) {
+    .intermediate img {
+        margin-left: 80px;
+        width: auto;
+    }
+
+    .intermediate {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 980px) {
+    .intermediate {
+        display: grid;
+        place-items: center;
+    }
+
+    .intermediate .intermediate-text {
+        width: auto;
+        padding-bottom: 50px;
+    }
+
+    .intermediate img {
+        margin-left: 0px;
+        height: 350px;
+        width: 650px;
+    }
+}
+
+@media (max-width: 450px) {
+    .intermediate .intermediate-text h2 {
+        font-size: 36px;
+    }
+
+    .intermediate .intermediate-text .intermediate-text-sub span {
+        font-size: 16px;
+    }
+
+    .intermediate .intermediate-text .intermediate-text-sub {
+        padding-top: 15px;
+    }
+
+    .intermediate img {
+        height: none;
+        width: none;
+        border-radius: 5px;
+        margin-left: -10px;
+    }
+
+    .intermediate {
+        padding: 50px 15px;
+    }
+}
+
+/* Адаптация для формы бронирование абонемента */
+@media (max-width: 1280px) {
+    .subscription .subscription-container img {
+        right: 25px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .subscription .subscription-container img {
+        right: -65px;
+    }
+}
+
+@media (max-width: 980px) {
+    .subscription .subscription-container img {
+        display: none;
+    }
+
+    .subscription .subscription-container form {
+        width: 100%;
+    }
+
+    .subscription .subscription-container form input {
+        width: 100%;
+    }
+
+    .subscription .subscription-container form button {
+        width: 101.5%;
+    }
+
+    .subscription .subscription-container {
+        width: 87%;
+    }
+}
+
+@media (max-width: 650px) {
+    .subscription h2 {
+        font-size: 32px;
+    }
+
+    .subscription {
+        padding: 50px 100px 50px 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .subscription h2 {
+        font-size: 28px;
+    }
+}
+
+/* Адаптация для блок с фотографиями */
+@media (max-width: 1269px) {
+    .photo {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 980px) {
+    .photo {
+        padding: 50px 100px;
+    }
+}
+
+@media (max-width: 829px) {
+    .photo {
+        padding: 50px 50px;
+    } 
+}
+
+@media (max-width: 729px) {
+    .photo {
+        padding: 50px 15px;
+    } 
+}
+
+/* Адаптация для футера */
+@media (max-width: 980px) {
+    footer {
+        display: grid;
+        place-items: center;
+    }
+
+    footer iframe {
+        width: 100%;
+        height: 600px;
+    }
+
+    footer .footer-text {
+        width: 100%;
+    }
+
+    footer .footer-text {
+        width: 100%;
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
