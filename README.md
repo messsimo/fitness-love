@@ -14,7 +14,7 @@ I LOVE FITNESS is a sport complex based in Moscow,Russia. In the web we can see 
 
 1. Clone the repository:
     ```
-      git clone https://github.com/username/repository.git
+      git clone https://github.com/messsimo/fitness-love.git
     ```
 2. Go to the project directory:
     ```
